@@ -1,5 +1,5 @@
 async function loadData() {
-  const response = await fetch("data.json");
+  const response = await fetch("data.json?nocache=" + new Date().getTime()); // force refresh
   const data = await response.json();
   renderData(data);
 }
