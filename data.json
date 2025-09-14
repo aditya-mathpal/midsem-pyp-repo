@@ -1,18 +1,16 @@
 {
-  "First Year": "https://drive.google.com/firstyearfolder",
+  "First Year": "https://drive.google.com/open?id=1dURixLKCVwU-1MsvzgRpjdmG6b9-5L0W&usp=drive_fs",
   "Second Year": {
-    "CSE": "https://drive.google.com/cse2",
-    "ECE": "https://drive.google.com/ece2",
-    "ME": "https://drive.google.com/me2"
+    "Sem III": {
+        "CSE": "https://drive.google.com/open?id=1tUTXyps0bVYLbUxZ7OOaVJoF1X0r8C4f&usp=drive_fs"
+    }
+    "Sem IV": {
+        "CSE": "https://drive.google.com/open?id=1S9cnrQgJgj-Dzt5Zg9ORfHPesKwYVu15&usp=drive_fs"
+    }
   },
   "Third Year": {
-    "CSE": "https://drive.google.com/cse3",
-    "ECE": "https://drive.google.com/ece3",
-    "ME": "https://drive.google.com/me3"
-  },
-  "Fourth Year": {
-    "CSE": "https://drive.google.com/cse4",
-    "ECE": "https://drive.google.com/ece4",
-    "ME": "https://drive.google.com/me4"
+    "Sem V": {
+        "CSE": "https://drive.google.com/open?id=1tF7FbNrcv0Ea4_dVIA56177y1c5YwRZy&usp=drive_fs"
+    }
   }
 }
