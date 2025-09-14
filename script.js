@@ -1,10 +1,10 @@
 async function loadData() {
   const response = await fetch("data.json");
   const data = await response.json();
-  renderYears(data);
+  renderData(data);
 }
 
-function renderYears(data) {
+function renderData(data) {
   const container = document.getElementById("content");
   container.innerHTML = "";
 
@@ -13,18 +13,23 @@ function renderYears(data) {
     div.className = "subject";
 
     if (typeof value === "string") {
-      // Direct link (First Year case)
+      // Direct link (First Year)
       div.innerHTML = `
         <h2>${year}</h2>
         <p><a href="${value}" target="_blank">Open Folder</a></p>
       `;
     } else {
-      // Has branches
-      let html = `<h2>${year}</h2><ul>`;
-      Object.entries(value).forEach(([branch, link]) => {
-        html += `<li><a href="${link}" target="_blank">${branch}</a></li>`;
+      // Year has semesters (and inside that, branches)
+      let html = `<h2>${year}</h2>`;
+
+      Object.entries(value).forEach(([semester, branches]) => {
+        html += `<h3>${semester}</h3><ul>`;
+        Object.entries(branches).forEach(([branch, link]) => {
+          html += `<li><a href="${link}" target="_blank">${branch}</a></li>`;
+        });
+        html += "</ul>";
       });
-      html += "</ul>";
+
       div.innerHTML = html;
     }
 
