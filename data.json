@@ -1,0 +1,18 @@
+{
+  "First Year": "https://drive.google.com/firstyearfolder",
+  "Second Year": {
+    "CSE": "https://drive.google.com/cse2",
+    "ECE": "https://drive.google.com/ece2",
+    "ME": "https://drive.google.com/me2"
+  },
+  "Third Year": {
+    "CSE": "https://drive.google.com/cse3",
+    "ECE": "https://drive.google.com/ece3",
+    "ME": "https://drive.google.com/me3"
+  },
+  "Fourth Year": {
+    "CSE": "https://drive.google.com/cse4",
+    "ECE": "https://drive.google.com/ece4",
+    "ME": "https://drive.google.com/me4"
+  }
+}

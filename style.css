@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+#search {
+  margin-top: 1em;
+  padding: 0.5em;
+  width: 80%;
+  max-width: 400px;
+}
+
+main {
+  padding: 1em;
+}
+
+.subject {
+  background: white;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 5px;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.subject h2 {
+  margin: 0 0 0.5em 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.3em 0;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
